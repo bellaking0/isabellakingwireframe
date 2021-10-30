@@ -1,24 +1,33 @@
+/*syles.css*/
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+	list-style-type: none;
+	margin: 0
+	padding: 0;
+	overflow: hidden;
+	background-color: #0072BB
+}
+li {
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+section {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+/* If the screen size is 480px wide or less, set the padding for <section> to 25px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding-left: 25px;
+    padding-right: 25px;
   }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+}
+/*change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111
+}
