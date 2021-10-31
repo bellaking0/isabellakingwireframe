@@ -1,35 +1,21 @@
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  background-color: #150300;
+.nav ul {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+background-color: #333;  
 }
 li {
   float: left;
 }
-li a{
-  display:  inline-block;
+li a {
+  display: inline-block;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding:10px;
   text-decoration: none;
 }
-/* The navbar container */
-.topnav {
-  overflow: hidden;
-  background-color: black;
-}
-/* Navbar links */
-.topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  text-decoration: none;
-}
-.topnav a {
-  float: none;
-  width: 16%;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
