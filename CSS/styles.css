@@ -1,21 +1,59 @@
-.nav ul {
-list-style-type: none;
-margin: 0px;
-padding: 0px;
-overflow: hidden;
-background-color: #333;  
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #111
 }
 li {
-  float: left;
+	float: right;
+    background-color: #000;
 }
-li a {
-  display: inline-block;
-  color: #fff;
-  text-align: center;
-  padding:10px;
-  text-decoration: none;
+li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
-/* Change the link color to #111 (black) on hover */
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    overflow: none;
+}
+section {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+/* If the screen size is 480px wide or less, set the padding for <section> to 25px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+/*change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+	background-color: #000
+}
+section {
+    text-transform: uppercase;
+}
+figure {
+    position: absolute;
+    right: 0px;
+    width: auto;
+    padding: 10px;
+}
+body {
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    width: auto;
+    bottom: 0px;
+}
+article {
+    display: inline-block;
+
 }
