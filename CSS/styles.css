@@ -1,5 +1,8 @@
 ul {
 	list-style-type: none;
+    position: fixed;
+    top: 0px;
+    width: 100px;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
@@ -16,11 +19,19 @@ li a{
 	padding: 14px 16px;
 	text-decoration: none;
 }
-/* Style the navigation menu */
-.navbar {
-    width: 100%;
-    overflow: none;
-}
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
 section {
   padding-left: 250px;
   padding-right: 250px;
@@ -58,5 +69,8 @@ article {
 }
 h3 {
     position: absolute;
-
+background-color: #111;
+color: white;
+text-align: center;
+padding: 14px 16px;
 }
