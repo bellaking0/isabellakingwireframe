@@ -48,12 +48,15 @@ figure {
 body {
     text-align: center;
 }
-.footer {
+footer {
     position: fixed;
     width: auto;
     bottom: 0px;
 }
 article {
     display: inline-block;
+}
+h3 {
+    position: absolute;
 
 }
