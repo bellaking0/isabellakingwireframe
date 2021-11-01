@@ -88,3 +88,13 @@ article {
     direction: rtl;
     unicode-bidi: bidi-override;
 }
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 100px;
+    display: inline-block;
+    text-align: center;
+  }
