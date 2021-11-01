@@ -16,14 +16,14 @@ li a{
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 10px 130px;
 	text-decoration: none;
 }
 /* Navbar links */
 .topnav a {
     float: left;
     display: block;
-    color: white;
+    color: #000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -73,4 +73,18 @@ background-color: #111;
 color: white;
 text-align: center;
 padding: 14px 16px;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    color: orange;
+}
+h1 {
+    font-family: 'Arial', 'Helvetica', sans-serif
+}
+article {
+    text-align: center;
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
