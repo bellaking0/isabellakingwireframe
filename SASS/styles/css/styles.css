@@ -62,8 +62,9 @@ body {
 }
 footer {
     position: fixed;
-    width: auto;
+    width: 103%;
     bottom: 0px;
+    background-color: #414141;
 }
 article {
     display: inline-block;
