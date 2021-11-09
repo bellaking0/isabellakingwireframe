@@ -1,0 +1,28 @@
+nav {
+    background-color: #414141;
+}
+@import "colors";
+body {
+  color: $primary-color;
+  background: $secondary-color;
+}
+a {
+    color: white;
+}
+p {
+    width: 50%;
+}
+aside {
+width: 50%;
+}
+@mixin h2 {
+    font-family: 'Marck Script', cursive;
+    font-size: normal;
+    font-style: normal;
+    color: #DB8D33;
+}
+@import './vendor/normalize';
+@import './partials/colors';
+@import './partials/mixin';
+@import './partials/typography';
+@import './css/main.css'

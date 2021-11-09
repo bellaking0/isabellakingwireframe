@@ -2,9 +2,7 @@ primary-font{
 font-family: 'Dosis', sans-serif;
 }
 h2 {
-    font-family: 'Marck Script', cursive;
-    font: normal;
-    color: #DB8D33;
+    @include h2
     }
 h1 {
     font-family: 'Montserrat', sans-serif;
