@@ -1,4 +1,4 @@
-@import "./vendor/normalize.scss";
+@import './vendor/normalize';
 ul {
 	list-style-type: none;
     position: fixed;

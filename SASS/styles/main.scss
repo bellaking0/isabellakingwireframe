@@ -1,10 +1,11 @@
+/*# sourceMappingURL=main.css.map */
 nav {
     background-color: #414141;
 }
-@import "colors";
+@import "./partials/_colors.scss";
 body {
-  color: $primary-color;
-  background: $secondary-color;
+  color: $primary-font-color;
+  background: white;
 }
 a {
     color: white;
