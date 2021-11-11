@@ -1,9 +1,9 @@
-@import "./vendor/normalize.scss";
+@import './vendor/normalize';
 ul {
 	list-style-type: none;
     position: fixed;
     top: 0px;
-    width: 100px;
+    width: 103%;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
@@ -31,7 +31,7 @@ li a{
   }
     .topnav a {
       float: none;
-      width: 100%;
+      width: 103%;
     }
 section {
   padding-left: 250px;
